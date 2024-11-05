@@ -8,7 +8,7 @@ const NavBar = () => {
   <li><NavLink className="focus:font-bold" to="blog">Blog</NavLink></li>
   </>
     return (
-        <div className="w-11/12 mx-auto">
+        <div className="mx-auto py-4 px-10 bg-white">
             <div className="navbar">
   <div className="navbar-start">
     <div className="dropdown">

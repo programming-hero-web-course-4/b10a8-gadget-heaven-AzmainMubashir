@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div>
-<footer className="footer footer-center bg-white text-primary-content pt-10 px-10 pb-8 border-b">
+<footer className="footer footer-center bg-white text-primary-content py-12 px-10 border-b">
   <aside>
     <a href="/" className="font-bold text-3xl text-black">
     Gadget Heaven
@@ -9,7 +9,7 @@ const Footer = () => {
     <p className="font-medium opacity-60 text-black">Leading the way in cutting-edge technology and innovation.</p>
   </aside>
 </footer>
-<footer className="footer md:place-items-baseline md:place-content-evenly bg-white pb-10 px-10 pt-8">
+<footer className="footer md:place-items-baseline md:place-content-evenly bg-white pb-16 px-10 pt-8">
   <nav>
     <h6 className="footer-title opacity-100 text-black text-xl">Services</h6>
     <a className="link link-hover opacity-60 text-black text-base font-normal">Product Support</a>

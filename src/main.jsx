@@ -10,7 +10,7 @@ import Error from './components/Error';
 import Home from './components/Home';
 import Statistics from './components/Statistics';
 import Dashboard from './components/Dashboard';
-import Blog from './Blog';
+import Blog from './components/Blog';
 
 
 const router = createBrowserRouter([

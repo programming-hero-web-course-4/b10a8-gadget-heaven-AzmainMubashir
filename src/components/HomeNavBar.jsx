@@ -8,7 +8,7 @@ const HomeNavBar = () => {
   <li><NavLink className="focus:font-bold" to="blog">Blog</NavLink></li>
   </>
     return (
-        <div className="w-11/12 mx-auto pt-6 mb-[28rem]">
+        <div className="w-11/12 mx-auto pt-6 mb-[28rem] bg-[#F7F7F7]">
 
               <div className="navbar bg-purple-600 rounded-t-[2rem] pr-6 lg:px-10 pt-8">
                 <div className="navbar-start">
