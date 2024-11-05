@@ -1,0 +1,234 @@
+[
+      {
+        "product_id": "P001",
+        "product_title": "iPhone 14 Pro",
+        "product_image": "https://example.com/images/iphone14pro.jpg",
+        "category": "Phone",
+        "price": 1099.99,
+        "description": "The latest iPhone with A16 Bionic chip, improved cameras, and 120Hz ProMotion display.",
+        "Specification": ["6.1-inch OLED display", "A16 Bionic chip", "48MP main camera", "iOS 16"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "P002",
+        "product_title": "Samsung Galaxy S22 Ultra",
+        "product_image": "https://example.com/images/galaxyS22ultra.jpg",
+        "category": "Phone",
+        "price": 1199.99,
+        "description": "Powerful Android phone with S Pen support and 108MP camera.",
+        "Specification": ["6.8-inch QHD+ display", "Snapdragon 8 Gen 1", "108MP camera", "5000mAh battery"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P003",
+        "product_title": "Google Pixel 7 Pro",
+        "product_image": "https://example.com/images/pixel7pro.jpg",
+        "category": "Phone",
+        "price": 899.99,
+        "description": "Google's flagship phone with AI-powered camera features.",
+        "Specification": ["6.7-inch QHD+ OLED", "Google Tensor G2 chip", "50MP main camera", "Android 13"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "P004",
+        "product_title": "OnePlus 10 Pro",
+        "product_image": "https://example.com/images/oneplus10pro.jpg",
+        "category": "Phone",
+        "price": 799.99,
+        "description": "Flagship killer with a 120Hz AMOLED display and Hasselblad cameras.",
+        "Specification": ["6.7-inch AMOLED display", "Snapdragon 8 Gen 1", "48MP main camera", "5000mAh battery"],
+        "availability": false,
+        "rating": 4.5
+      },
+      {
+        "product_id": "P005",
+        "product_title": "Sony Xperia 1 IV",
+        "product_image": "https://example.com/images/xperia1iv.jpg",
+        "category": "Phone",
+        "price": 999.99,
+        "description": "Sony's cinematic 4K phone with pro-grade camera technology.",
+        "Specification": ["6.5-inch 4K OLED", "Snapdragon 8 Gen 1", "12MP triple camera", "Android 12"],
+        "availability": true,
+        "rating": 4.4
+      },
+      {
+        "product_id": "P006",
+        "product_title": "Xiaomi 12 Pro",
+        "product_image": "https://example.com/images/xiaomi12pro.jpg",
+        "category": "Phone",
+        "price": 699.99,
+        "description": "High-performance phone with a beautiful display and fast charging.",
+        "Specification": ["6.73-inch WQHD+ AMOLED", "Snapdragon 8 Gen 1", "50MP triple camera", "4600mAh battery"],
+        "availability": true,
+        "rating": 4.3
+      },
+      {
+        "product_id": "L001",
+        "product_title": "MacBook Pro 14",
+        "product_image": "https://example.com/images/macbookpro14.jpg",
+        "category": "Laptop",
+        "price": 1999.99,
+        "description": "Apple's powerful laptop with M1 Pro chip, ideal for creative professionals.",
+        "Specification": ["14-inch Liquid Retina XDR", "M1 Pro chip", "16GB RAM", "512GB SSD"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "L002",
+        "product_title": "Dell XPS 13",
+        "product_image": "https://example.com/images/xps13.jpg",
+        "category": "Laptop",
+        "price": 999.99,
+        "description": "Compact, high-resolution laptop with edge-to-edge display.",
+        "Specification": ["13.4-inch FHD+", "Intel Core i7", "16GB RAM", "512GB SSD"],
+        "availability": false,
+        "rating": 4.8
+      },
+      {
+        "product_id": "L003",
+        "product_title": "HP Spectre x360",
+        "product_image": "https://example.com/images/spectrex360.jpg",
+        "category": "Laptop",
+        "price": 1249.99,
+        "description": "Convertible laptop with touchscreen and pen support.",
+        "Specification": ["13.3-inch OLED display", "Intel Core i7", "16GB RAM", "512GB SSD"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "L004",
+        "product_title": "Lenovo ThinkPad X1 Carbon",
+        "product_image": "https://example.com/images/thinkpadx1.jpg",
+        "category": "Laptop",
+        "price": 1399.99,
+        "description": "Durable business laptop with robust security features.",
+        "Specification": ["14-inch FHD", "Intel Core i7", "16GB RAM", "1TB SSD"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "L005",
+        "product_title": "ASUS ZenBook 14",
+        "product_image": "https://example.com/images/zenbook14.jpg",
+        "category": "Laptop",
+        "price": 849.99,
+        "description": "Lightweight laptop with long battery life and nano-edge display.",
+        "Specification": ["14-inch FHD", "AMD Ryzen 7", "16GB RAM", "512GB SSD"],
+        "availability": false,
+        "rating": 4.5
+      },
+      {
+        "product_id": "L006",
+        "product_title": "Acer Swift 3",
+        "product_image": "https://example.com/images/swift3.jpg",
+        "category": "Laptop",
+        "price": 699.99,
+        "description": "Affordable laptop with good performance and portability.",
+        "Specification": ["14-inch FHD", "Intel Core i5", "8GB RAM", "256GB SSD"],
+        "availability": true,
+        "rating": 4.4
+      },
+      {
+        "product_id": "W001",
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://example.com/images/applewatch8.jpg",
+        "category": "Smart Watch",
+        "price": 399.99,
+        "description": "The latest Apple Watch with advanced health monitoring features.",
+        "Specification": ["Always-on Retina display", "ECG and Blood Oxygen apps", "watchOS 9"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "W002",
+        "product_title": "Samsung Galaxy Watch5",
+        "product_image": "https://example.com/images/galaxywatch5.jpg",
+        "category": "Smart Watch",
+        "price": 279.99,
+        "description": "Wear OS smartwatch with fitness tracking and Google Assistant.",
+        "Specification": ["1.4-inch Super AMOLED", "Samsung BioActive Sensor", "Wear OS"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "W003",
+        "product_title": "Garmin Venu 2 Plus",
+        "product_image": "https://example.com/images/garminvenu2plus.jpg",
+        "category": "Smart Watch",
+        "price": 449.99,
+        "description": "Smartwatch for active lifestyle with built-in GPS and music.",
+        "Specification": ["AMOLED display", "Health monitoring", "GPS and Music"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "W004",
+        "product_title": "Fitbit Sense 2",
+        "product_image": "https://example.com/images/fitbitsense2.jpg",
+        "category": "Smart Watch",
+        "price": 249.99,
+        "description": "Health-focused smartwatch with stress management tools.",
+        "Specification": ["EDA Scan app", "Sleep tracking", "Built-in GPS"],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": "W005",
+        "product_title": "Fossil Gen 6",
+        "product_image": "https://example.com/images/fossilgen6.jpg",
+        "category": "Smart Watch",
+        "price": 299.99,
+        "description": "Stylish smartwatch with fitness tracking and Google Assistant.",
+        "Specification": ["1.28-inch AMOLED", "Wear OS", "Heart rate monitoring"],
+        "availability": false,
+        "rating": 4.4
+      },
+      {
+        "product_id": "W006",
+        "product_title": "Huawei Watch GT 3",
+        "product_image": "https://example.com/images/huaweiwatchgt3.jpg",
+        "category": "Smart Watch",
+        "price": 229.99,
+        "description": "Elegant smartwatch with long battery life and health tracking.",
+        "Specification": ["1.43-inch AMOLED", "14-day battery life", "Sleep and SpO2 monitoring"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "A001",
+        "product_title": "Apple AirPods Pro (2nd Gen)",
+        "product_image": "https://example.com/images/airpodspro.jpg",
+        "category": "Accessory",
+        "price": 249.99,
+        "description": "Noise-canceling wireless earbuds with spatial audio and adaptive EQ.",
+        "Specification": ["Active noise cancellation", "Adaptive EQ", "MagSafe charging"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "A002",
+        "product_title": "Anker PowerCore 10000",
+        "product_image": "https://example.com/images/powercore10000.jpg",
+        "category": "Accessory",
+        "price": 25.99,
+        "description": "Portable 10000mAh power bank for charging on the go.",
+        "Specification": ["10000mAh capacity", "USB-A output", "Compact design"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "A003",
+        "product_title": "Logitech MX Master 3",
+        "product_image": "https://example.com/images/mxmaster3.jpg",
+        "category": "Accessory",
+        "price": 99.99,
+        "description": "Advanced wireless mouse with customizable buttons and ergonomic design.",
+        "Specification": ["Advanced 4000 DPI sensor", "USB-C charging", "Ergonomic design"],
+        "availability": true,
+        "rating": 4.9
+      }
+    ]
+  
