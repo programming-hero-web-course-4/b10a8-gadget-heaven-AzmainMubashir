@@ -3,8 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
-    font-family: "Sora", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   }
+
+.bg1 {
+  background-color: rgb(247, 247, 247);
+}

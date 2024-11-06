@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 const Error = () => {
+
+  useEffect(()=> {
+    document.title ="Page Not Found | Gadget Heaven"
+})
     return (
         <div>
             <div className="hero bg-white min-h-screen">

@@ -1,6 +1,6 @@
 [
       {
-        "productId": "P001",
+        "productId": 1,
         "productTitle": "iPhone 14 Pro",
         "productImage": "https://i.ibb.co.com/LkvKFXs/Image.png",
         "category": "Phone",
@@ -11,7 +11,7 @@
         "rating": 4.8
       },
       {
-        "productId": "P002",
+        "productId": 2,
         "productTitle": "Samsung Galaxy S22 Ultra",
         "productImage": "https://i.ibb.co.com/rHb9h52/Image.png",
         "category": "Phone",
@@ -22,7 +22,7 @@
         "rating": 4.7
       },
       {
-        "productId": "L002",
+        "productId": 3,
         "productTitle": "Dell XPS 13",
         "productImage": "https://i.ibb.co.com/1n6cHTc/Image.png",
         "category": "Laptop",
@@ -33,7 +33,7 @@
         "rating": 4.8
       },
       {
-        "productId": "L001",
+        "productId": 4,
         "productTitle": "MacBook Pro 14",
         "productImage": "https://i.ibb.co.com/j65xx7z/Image.png",
         "category": "Laptop",
@@ -44,7 +44,7 @@
         "rating": 4.9
       },
       {
-        "productId": "W005",
+        "productId": 5,
         "productTitle": "Fossil Gen 6",
         "productImage": "https://i.ibb.co.com/d62Zstd/Image.png",
         "category": "Smart Watch",
@@ -55,7 +55,7 @@
         "rating": 4.4
       },
       {
-        "productId": "A001",
+        "productId": 6,
         "productTitle": "Apple AirPods Pro (2nd Gen)",
         "productImage": "https://i.ibb.co.com/HhCb7xZ/Image.png",
         "category": "Accessory",
@@ -66,7 +66,7 @@
         "rating": 4.8
       },
       {
-        "productId": "P003",
+        "productId": 7,
         "productTitle": "Google Pixel 7 Pro",
         "productImage": "https://i.ibb.co.com/sW4fP6j/Image.png",
         "category": "Phone",
@@ -77,7 +77,7 @@
         "rating": 4.6
       },
       {
-        "productId": "P004",
+        "productId": 8,
         "productTitle": "OnePlus 10 Pro",
         "productImage": "https://i.ibb.co.com/Dw5V6nx/Image.png",
         "category": "Phone",
@@ -88,7 +88,7 @@
         "rating": 4.5
       },
       {
-        "productId": "P005",
+        "productId": 9,
         "productTitle": "Sony Xperia 1 IV",
         "productImage": "https://i.ibb.co.com/tsLT2Bt/Image.png",
         "category": "Phone",
@@ -99,7 +99,7 @@
         "rating": 4.4
       },
       {
-        "productId": "P006",
+        "productId": 10,
         "productTitle": "Xiaomi 12 Pro",
         "productImage": "https://i.ibb.co.com/bKgkhJv/Image.png",
         "category": "Phone",
@@ -110,7 +110,7 @@
         "rating": 4.3
       },
       {
-        "productId": "L003",
+        "productId": 11,
         "productTitle": "HP Spectre x360",
         "productImage": "https://i.ibb.co.com/WnCY1T8/Image.png",
         "category": "Laptop",
@@ -121,7 +121,7 @@
         "rating": 4.7
       },
       {
-        "productId": "L004",
+        "productId": 12,
         "productTitle": "Lenovo ThinkPad X1 Carbon",
         "productImage": "https://i.ibb.co.com/gzcp475/image.png",
         "category": "Laptop",
@@ -132,7 +132,7 @@
         "rating": 4.6
       },
       {
-        "productId": "L005",
+        "productId": 13,
         "productTitle": "ASUS ZenBook 14",
         "productImage": "https://i.ibb.co.com/TW2ftqS/image.png",
         "category": "Laptop",
@@ -143,7 +143,7 @@
         "rating": 4.5
       },
       {
-        "productId": "L006",
+        "productId": 14,
         "productTitle": "Acer Swift 3",
         "productImage": "https://i.ibb.co.com/QvrSDbq/image.png",
         "category": "Laptop",
@@ -154,7 +154,7 @@
         "rating": 4.4
       },
       {
-        "productId": "W001",
+        "productId": 15,
         "productTitle": "Apple Watch Series 8",
         "productImage": "https://i.ibb.co.com/cCtx5wV/Image.png",
         "category": "Smart Watch",
@@ -165,7 +165,7 @@
         "rating": 4.8
       },
       {
-        "productId": "W002",
+        "productId": 16,
         "productTitle": "Samsung Galaxy Watch5",
         "productImage": "https://i.ibb.co.com/jJXYJX7/image.png",
         "category": "Smart Watch",
@@ -176,7 +176,7 @@
         "rating": 4.7
       },
       {
-        "productId": "W003",
+        "productId": 17,
         "productTitle": "Garmin Venu 2 Plus",
         "productImage": "https://i.ibb.co.com/09yW1rb/Image.png",
         "category": "Smart Watch",
@@ -187,7 +187,7 @@
         "rating": 4.6
       },
       {
-        "productId": "W004",
+        "productId": 18,
         "productTitle": "Fitbit Sense 2",
         "productImage": "https://i.ibb.co.com/Y36bKhw/Image.png",
         "category": "Smart Watch",
@@ -198,7 +198,7 @@
         "rating": 4.5
       },
       {
-        "productId": "W006",
+        "productId": 19,
         "productTitle": "Huawei Watch GT 3",
         "productImage": "https://i.ibb.co.com/6HvWHDb/Image.png",
         "category": "Smart Watch",
@@ -209,18 +209,18 @@
         "rating": 4.6
       },
       {
-        "productId": "A002",
-        "productTitle": "Anker PowerCore 10000",
+        "productId": 20,
+        "productTitle": "Anker PowerCore 30000",
         "productImage": "https://i.ibb.co.com/CwZY8XN/Image.png",
         "category": "Accessory",
-        "price": 25.99,
-        "description": "Portable 10000mAh power bank for charging on the go.",
-        "Specification": ["10000mAh capacity", "USB-A output", "Compact design"],
+        "price": 60.50,
+        "description": "Portable 30000mAh power bank for charging on the go.",
+        "Specification": ["30000mAh capacity", "USB-A output", "Compact design"],
         "availability": true,
         "rating": 4.7
       },
       {
-        "productId": "A003",
+        "productId": 21,
         "productTitle": "Logitech MX Master 3",
         "productImage": "https://i.ibb.co.com/r0w1d1C/image.png",
         "category": "Accessory",

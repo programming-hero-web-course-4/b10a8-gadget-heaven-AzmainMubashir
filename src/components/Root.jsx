@@ -8,9 +8,8 @@ const Root = () => {
     console.log(location)
     return (
         <div>
-            { location.pathname === '/' ?
-            <HomeNavBar></HomeNavBar> : <NavBar></NavBar>
-            }
+            { location.pathname.includes('dashboard') || location.pathname.includes('blog') || location.pathname.includes('statistics') || location.pathname.includes('gadget') ?
+            <NavBar></NavBar> : <HomeNavBar></HomeNavBar> }
             <Outlet></Outlet>
             <Footer></Footer>
             
