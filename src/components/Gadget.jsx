@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
-
 const Gadget = ({gadget}) => {
-
     const {productId, productTitle, productImage, price} = gadget;
-
     return (
     <div className="card bg-base-100 border">
     <figure className="p-5">

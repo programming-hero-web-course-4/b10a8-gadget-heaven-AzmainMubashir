@@ -18,6 +18,7 @@ import SmartWatch from './components/SmartWatch';
 import Phone from './components/Phone';
 import Gadgets from './components/Gadgets';
 import ProductsNotFound from './components/ProductsNotFound';
+import DefaultGadgets from './components/DefaultGadgets';
 
 
 
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
         children: [
           {
             path: "/",
+            element: <DefaultGadgets></DefaultGadgets>
+          },
+          {
+            path: "/products/all",
             element: <Gadgets></Gadgets>
           },
           {
