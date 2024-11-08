@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "photo": "https://i.ibb.co.com/vJjLSsF/Image.png",
+        "title": "Sony Unveils New PlayStation VR2 with Enhanced Graphics and Features",
+        "description": "Sony's latest VR headset, the PlayStation VR2, offers immersive 4K HDR gaming and advanced motion tracking.",
+        "category": "Gaming",
+        "author": "Lisa Brown",
+        "date": "05-11-2024",
+        "post": "Sony has launched the PlayStation VR2, a high-end VR headset that offers 4K HDR gaming, advanced motion-tracking, and haptic feedback for a more immersive experience. The device is compatible with the PlayStation 5, allowing users to enjoy a range of VR-compatible games with enhanced graphics and responsiveness. The VR2 also includes eye-tracking technology to personalize gameplay. It’s priced at $549 and is expected to be available globally in the next few weeks."
+    },
+    {
+        "id": 2,
+        "photo": "https://i.ibb.co.com/Pt84wvC/Image.png",
+        "title": "Samsung Galaxy Tab S9 Released: A New Era for Tablets",
+        "description": "Samsung's Galaxy Tab S9 comes with a larger display, improved S Pen functionality, and upgraded hardware for faster processing.",
+        "category": "Tablets",
+        "author": "Jane Smith",
+        "date": "07-11-2024",
+        "post": "Samsung has launched the Galaxy Tab S9, a next-gen tablet with a 12.4-inch Super AMOLED display, faster Snapdragon 8 Gen 2 processor, and an enhanced S Pen for smooth, precise writing and drawing. The device features a 10,090mAh battery, supporting up to 15 hours of video playback, making it ideal for both work and entertainment. Samsung has also incorporated IP68 water resistance, providing added durability. Available in Graphite and Mystic Silver, the Galaxy Tab S9 starts at $850."
+    },
+    {
+        "id": 3,
+        "photo": "https://i.ibb.co.com/tmQ8Kw0/Image.png",
+        "title": "Google's Pixel Watch 2 to Launch Next Month with Better Health Tracking",
+        "description": "Google announced that the Pixel Watch 2 will be released with enhanced heart-rate monitoring and a more durable design.",
+        "category": "Wearables",
+        "author": "Alex Johnson",
+        "date": "06-11-2024",
+        "post": "Google's Pixel Watch 2 is set for release next month, featuring advanced health-tracking capabilities. With a new heart rate sensor, improved sleep tracking, and an ECG feature, the watch is designed for those focused on health and fitness. Google has also made it more durable, adding a scratch-resistant display and water resistance up to 50 meters. The Pixel Watch 2 will work seamlessly with other Google devices, offering a smooth user experience. It will be priced at $399."
+    },
+    {
+        "id": 4,
+        "photo": "https://i.ibb.co.com/rbzxkKL/Image.png",
+        "title": "Apple Unveils New iPhone 15 with Advanced Camera Features",
+        "description": "Apple has introduced the iPhone 15, featuring a groundbreaking camera system, enhanced battery life, and a sleek new design.",
+        "category": "Smartphones",
+        "author": "John Doe",
+        "date": "08-11-2024",
+        "post": "Apple has officially launched the iPhone 15, which features an upgraded camera system including a 48MP main sensor, improved night mode, and AI-powered photography capabilities. The device also boasts a new A17 Bionic chip, enhancing speed and efficiency, while providing a longer battery life. Apple has focused on eco-friendly materials in the design, which is sleeker and lighter than previous models. The new iPhone comes in four colors and starts at $999. Shipping begins next month."
+    },
+    {
+        "id": 5,
+        "photo": "https://i.ibb.co.com/nD2404p/Image.png",
+        "title": "Xiaomi Launches Mi Mix Fold 3, A Foldable Phone with Triple Camera Setup",
+        "description": "Xiaomi's Mi Mix Fold 3 includes a flexible screen that folds seamlessly, along with a triple camera setup that captures stunning photos from various angles.",
+        "category": "Smartphones",
+        "author": "Michael Green",
+        "date": "04-11-2024",
+        "post": "Xiaomi's Mi Mix Fold 3 has arrived with an innovative foldable display and an impressive triple camera setup, including a 50MP main sensor, 8MP telephoto lens, and 12MP ultra-wide lens. The phone features a 5000mAh battery and supports 67W fast charging, ensuring a full charge in less than an hour. With its sleek, flexible design, the Mi Mix Fold 3 aims to offer a high-end smartphone experience in a foldable form factor. Starting at $1,299, it’s now available for pre-order."
+    }
+]
