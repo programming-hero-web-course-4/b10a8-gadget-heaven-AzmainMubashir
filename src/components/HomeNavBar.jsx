@@ -195,7 +195,7 @@ const HomeNavBar = () => {
         <div className="relative md:top-[36rem] lg:top-[24rem] border-4 border-white rounded-[2rem] p-6 bg-white bg-opacity-30">
           <img
             className="md:w-[32rem] lg:w-[60rem] lg:h-[35rem] rounded-3xl"
-            src="../../public/assets/banner.jpg"
+            src="../../assets/banner.jpg"
           />
         </div>
       </div>

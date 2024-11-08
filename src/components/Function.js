@@ -58,4 +58,5 @@ const removeCart = (id) => {
 const clearLSCD = () => {
     localStorage.removeItem('cartData')
 }
+
 export { addToWishlist, allWishlist, removeWishlist,addToCart,allCart,removeCart,clearLSCD }

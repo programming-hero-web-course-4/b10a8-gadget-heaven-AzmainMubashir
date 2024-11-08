@@ -61,7 +61,7 @@ const Dashboard = () => {
     const wishData = allWishlist();
     setWishlist(wishData);
   };
-
+  
   const [price, setPrice] = useState(0);
   useEffect(() => {
     const cartData = allCart();
@@ -69,17 +69,23 @@ const Dashboard = () => {
     const sum = price.reduce((a, c) => a + c, 0);
     setPrice(sum);
   });
-
+  
   const handleSort = () => {
     const cartData = allCart();
     const sortedCartData = [...cartData].sort((a, b) => b.price - a.price);
     setCart(sortedCartData);
   };
-
-  const handleModal = () => {
+  const [lastPrice, setLastPrice] =useState(0)
+  
+  
+  const handlePurchase = () => {
     clearLSCD()
+    setLastPrice(price)
     document.getElementById("purchaseModal").showModal();
-  };
+    const cartData = allCart();
+    setCart(cartData);
+
+}
 
   return (
     <div>
@@ -130,8 +136,8 @@ const Dashboard = () => {
                 Sort by Price <RiEqualizerLine className="text-2xl rotate-90" />
               </button>
               <button
-                onClick={() => handleModal()}
-                className="btn rounded-r-full rounded-l-full px-6 text-lg font-medium bg-purple-600 text-white"
+                onClick={() => handlePurchase()}
+                className={`${price === 0 ? 'btn-disabled' : '' } btn rounded-r-full rounded-l-full px-6 text-lg font-medium bg-purple-600 text-white`}
               >
                 Purchase
               </button>
@@ -213,14 +219,15 @@ const Dashboard = () => {
 
       <dialog id="purchaseModal" className="modal modal-bottom sm:modal-middle">
         <div className="modal-box place-content-center place-items-center space-y-5">
-          <img className="w-16" src="../../public/assets/Group.png" />
+          <img className="w-16" src="../../assets/Group.png" />
           <h3 className="font-bold text-2xl">Payment Successfully</h3>
           <p className="text-center">
-            Thanks for purchasing. <br /> Total: ${price}
+            Thanks for purchasing. <br /> Total: ${lastPrice}
           </p>
           <div className="modal-action">
             <form method="dialog">
-              <Link
+              <Link 
+              onClick={()=> setLastPrice(0)}                
                 to="/"
                 className="w-80 font-semibold rounded-r-full rounded-l-full bg-gray-200 btn"
               >
