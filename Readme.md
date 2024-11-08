@@ -2,7 +2,7 @@
 ---
 ## Project Link:
 
-**Live Link(Surge):** [assignment-08.a2ma1n.surge.sh](https://assignment-08-a2ma1n.surge.sh/)  
+**Live Link(Surge):** [assignment-08.a2ma1n.surge.sh](https://assignment-08.a2ma1n.surge.sh/)  
 **Live Link(Netlify):** [assignment-08-a2ma1n.netlify.app](https://assignment-08-a2ma1n.netlify.app/)
 
 ---
