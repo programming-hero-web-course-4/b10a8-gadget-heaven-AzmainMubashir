@@ -56,7 +56,7 @@
       },
       {
         "productId": 6,
-        "productTitle": "Apple AirPods Pro (2nd Gen)",
+        "productTitle": "Apple AirPods Pro",
         "productImage": "https://i.ibb.co.com/HhCb7xZ/Image.png",
         "category": "Accessory",
         "price": 249.99,
@@ -155,7 +155,7 @@
       },
       {
         "productId": 15,
-        "productTitle": "Apple Watch Series 8",
+        "productTitle": "Apple Watch 8",
         "productImage": "https://i.ibb.co.com/cCtx5wV/Image.png",
         "category": "Smart Watch",
         "price": 399.99,
@@ -166,7 +166,7 @@
       },
       {
         "productId": 16,
-        "productTitle": "Samsung Galaxy Watch5",
+        "productTitle": "Samsung Galaxy Watch 5",
         "productImage": "https://i.ibb.co.com/jJXYJX7/image.png",
         "category": "Smart Watch",
         "price": 279.99,

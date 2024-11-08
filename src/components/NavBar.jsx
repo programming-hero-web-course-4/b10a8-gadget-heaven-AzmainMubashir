@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
-import { allCart, allWishlist, updatePrice } from "./Function";
+import { allCart, allWishlist } from "./Function";
 import { useEffect, useState } from "react";
+import { render } from "react-dom";
 
 const NavBar = () => {
 
@@ -17,10 +18,11 @@ const NavBar = () => {
 
   const [price, setPrice] = useState(0);
   useEffect(() => {
-      setPrice(updatePrice())
-      // const cartData = allCart();
-      // setCart(cartData);
-  },0)
+    const cartData = allCart();
+    const price = cartData.map(data=> data.price);
+    const sum = price.reduce((a,c) => a+c ,0)
+    setPrice(sum) 
+  },)
 
   const links = <>
   <li><NavLink className={({isActive})=> (isActive ? 'font-bold' : "") } to="/">Home</NavLink></li>

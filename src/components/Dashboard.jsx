@@ -4,12 +4,13 @@ import {
   addToCart,
   allCart,
   allWishlist,
+  clearLSCD,
   removeCart,
   removeWishlist,
-  updatePrice,
 } from "./Function";
 import { RiDeleteBin6Fill } from "react-icons/ri";
 import toast from "react-hot-toast";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   useEffect(() => {
@@ -26,14 +27,6 @@ const Dashboard = () => {
     const cartData = allCart();
     setCart(cartData);
   }, []);
-
-  const [price, setPrice] = useState(0);
-useEffect(() => {
-    setPrice(updatePrice())
-    const cartData = allCart();
-    setCart(cartData);
-},0)
-
 
   const [handleBtn, setHandleBtn] = useState(false);
   const handleTogBtn = (data) => {
@@ -67,6 +60,25 @@ useEffect(() => {
     handleRemoveWish(id.productId);
     const wishData = allWishlist();
     setWishlist(wishData);
+  };
+
+  const [price, setPrice] = useState(0);
+  useEffect(() => {
+    const cartData = allCart();
+    const price = cartData.map((data) => data.price);
+    const sum = price.reduce((a, c) => a + c, 0);
+    setPrice(sum);
+  });
+
+  const handleSort = () => {
+    const cartData = allCart();
+    const sortedCartData = [...cartData].sort((a, b) => b.price - a.price);
+    setCart(sortedCartData);
+  };
+
+  const handleModal = () => {
+    clearLSCD()
+    document.getElementById("purchaseModal").showModal();
   };
 
   return (
@@ -111,10 +123,16 @@ useEffect(() => {
               <h2 className="text-xl lg:text-2xl font-bold">
                 Total Cost: ${price}
               </h2>
-              <button className="btn rounded-r-full rounded-l-full px-6 text-lg font-semibold bg-white text-purple-600 border border-purple-600">
+              <button
+                onClick={() => handleSort()}
+                className="btn rounded-r-full rounded-l-full px-6 text-lg font-semibold bg-white text-purple-600 border border-purple-600"
+              >
                 Sort by Price <RiEqualizerLine className="text-2xl rotate-90" />
               </button>
-              <button className="btn rounded-r-full rounded-l-full px-6 text-lg font-medium bg-purple-600 text-white">
+              <button
+                onClick={() => handleModal()}
+                className="btn rounded-r-full rounded-l-full px-6 text-lg font-medium bg-purple-600 text-white"
+              >
                 Purchase
               </button>
             </div>
@@ -192,6 +210,26 @@ useEffect(() => {
         </div>
       </div>
       <div></div>
+
+      <dialog id="purchaseModal" className="modal modal-bottom sm:modal-middle">
+        <div className="modal-box place-content-center place-items-center space-y-5">
+          <img className="w-16" src="../../public/assets/Group.png" />
+          <h3 className="font-bold text-2xl">Payment Successfully</h3>
+          <p className="text-center">
+            Thanks for purchasing. <br /> Total: ${price}
+          </p>
+          <div className="modal-action">
+            <form method="dialog">
+              <Link
+                to="/"
+                className="w-80 font-semibold rounded-r-full rounded-l-full bg-gray-200 btn"
+              >
+                Close
+              </Link>
+            </form>
+          </div>
+        </div>
+      </dialog>
     </div>
   );
 };

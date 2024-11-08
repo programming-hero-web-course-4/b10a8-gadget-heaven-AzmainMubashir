@@ -55,15 +55,7 @@ const removeCart = (id) => {
     localStorage.setItem('cartData', JSON.stringify(remaining))
     toast.success('Product removed from Cart!');
 }
-
-const updatePrice = () => {
-    const cartData = allCart();
-    const price = cartData.map(data=> data.price);
-    const sum = price.reduce((a,c) => a+c ,0)
-    return sum; 
-    console.log(cartData)
-    console.log(price)
-    console.log(sum)
+const clearLSCD = () => {
+    localStorage.removeItem('cartData')
 }
-
-export { addToWishlist, allWishlist, removeWishlist,addToCart,allCart,removeCart,updatePrice }
+export { addToWishlist, allWishlist, removeWishlist,addToCart,allCart,removeCart,clearLSCD }

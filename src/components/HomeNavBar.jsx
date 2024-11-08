@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { allCart, allWishlist, updatePrice } from "./Function";
+import { allCart, allWishlist } from "./Function";
 
 const HomeNavBar = () => {
   const [wishCount, setWishCount] = useState([]);
@@ -17,8 +17,11 @@ const HomeNavBar = () => {
 
   const [price, setPrice] = useState(0);
   useEffect(() => {
-      setPrice(updatePrice())
-  },0)
+    const cartData = allCart();
+    const price = cartData.map(data=> data.price);
+    const sum = price.reduce((a,c) => a+c ,0)
+    setPrice(sum)  
+  },)
 
   const links = (
     <>
