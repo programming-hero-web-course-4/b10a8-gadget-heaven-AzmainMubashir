@@ -9,7 +9,7 @@
 
 ## Project Requirement Document :
 
-[Requirement Document]()
+[Requirement Document](https://github.com/AzmainMubashir/Requirement-PDFs/blob/main/Batch-10_Assignment-08.pdf)
 
 ---
 
